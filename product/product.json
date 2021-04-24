@@ -1,0 +1,74 @@
+[
+{
+    "title": "Tiny Explorer Kit",
+    "price": "Price:  ₹ 500 ",
+    "link": "/assets/img/products/Tiny Explorer Kit (Air and Craft Combo 1).jpg",
+    "btnlink": "tiny-explorer-kit"
+},
+{
+    "title": "Junior Explorer Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Junior Explorer Kit (Air and Craft Combo 4).jpg",
+    "btnlink": "junior-explorer-kit"
+},
+{
+    "title": "Major Explorer Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Major Explorer Kit (Air and Craft Combo 6).jpg",
+    "btnlink": "major-explorer-kit"
+},
+{
+    "title": "Tiny Gamer Kit",
+    "price": "Price: ₹ 300",
+    "link": "/assets/img/products/Tiny Gamer Kit (Games Kit).jpg",
+    "btnlink": "tiny-gamer-kit"
+},
+{
+    "title": "Tiny Artist Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Tiny Artist Kit (Toddler Kit).jpg",
+    "btnlink": "tiny-artist-kit"
+},
+{
+    "title": "Tiny Discoverer Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Tiny Discoverer Kit (Air and Craft Combo 5).jpg",
+    "btnlink": "tiny-discoverer-kit"
+},
+{
+    "title": "Junior Discoverer Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Junior Discoverer Kit (Air and Craft Combo 2).jpg",
+    "btnlink": "junior-discoverer-kit"
+},
+{
+    "title": "Major Innovator Kit",
+    "price": "Price: ₹ 700",
+    "link": "/assets/img/products/Major Innovator Kit (Air and Craft Combo 3).jpg",
+    "btnlink": "major-innovator-kit"
+},
+{
+    "title": "Junior Potter Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Junior Potter Kit (Clay combo 6).jpg",
+    "btnlink": "junior-potter-kit"
+},
+{
+    "title": "Junior Artist Kit",
+    "price": "Price: ₹ 1000",
+    "link": "/assets/img/products/Junior Artist Kit (Craft Combo 2).jpg",
+    "btnlink": "junior-artist-kit"
+},
+{
+    "title": "Junior Daredevil Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Junior Daredevil Kit (Glider Combo 2).jpg",
+    "btnlink": "junior-daredevil-kit"
+},
+{
+    "title": "Junior Adventurer Kit",
+    "price": "Price: ₹ 700",
+    "link": "/assets/img/products/Junior Adventurer Kit (Glider Combo 1).jpg",
+    "btnlink": "junior-adventurer-kit"
+}
+]

@@ -1,0 +1,265 @@
+/* header nav dropdown   */
+
+
+/* @media all and (min-width: 992px) { */
+
+@media all and (min-width: 360px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {}
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+
+/* .pad {
+        border: 1px solid black;
+        padding: 2px;
+        border-radius: 2px;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    } */
+
+
+/* GAC btn */
+
+.btn1 {
+    border-radius: 2.25rem;
+}
+
+.btn-gac {
+    color: #fff;
+    /* background-color: #b2bdc9; */
+    border-color: #155dab;
+    border: 1px solid;
+}
+
+.btn-gac:hover {
+    color: #fff;
+    background-color: #A4DFFD;
+    border-color: #A4DFFD;
+}
+
+
+/* logo */
+
+.img-fluid1 {
+    max-width: 50%;
+    height: auto;
+    /* height: 25px; */
+}
+
+/*zoom*/
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*team/vidya_ravichandran.html*/
+header.teamhead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-copy.jpg");*/
+    background: linear-gradient(to bottom, rgba(92, 77, 67, 0.4) 0%, rgba(92, 77, 14, 0.4) 100%), url("../assets/img/portfolio/fullsize/vidya.png");
+    /*background: url("../assets/img/event-1536x864.png");*/
+    /*background-position: center;*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.teamhead h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    header.teamhead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+
+    header.teamhead p {
+        font-size: 1.15rem;
+    }
+
+    header.teamhead h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.teamhead h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/*team/vidya_ravichandran.html*/
+header.teamhead1 {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-copy.jpg");*/
+    background: linear-gradient(to bottom, rgba(92, 77, 67, 0.4) 0%, rgba(92, 77, 14, 0.4) 100%), url("../assets/img/portfolio/fullsize/girish.png");
+    /*background: url("../assets/img/event-1536x864.png");*/
+    /*background-position: center;*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.teamhead1 h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    header.teamhead1 {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+
+    header.teamhead1 p {
+        font-size: 1.15rem;
+    }
+
+    header.teamhead1 h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.teamhead1 h1 {
+        font-size: 3.5rem;
+    }
+}
+
+
+/*team/naveen_krishnamurthy.html*/
+header.teamhead2 {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-copy.jpg");*/
+    background: linear-gradient(to bottom, rgba(92, 77, 67, 0.4) 0%, rgba(92, 77, 14, 0.4) 100%), url("../assets/img/portfolio/fullsize/naveen.png");
+    /*background: url("../assets/img/event-1536x864.png");*/
+    /*background-position: center;*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.teamhead2 h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    header.teamhead2 {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+
+    header.teamhead2 p {
+        font-size: 1.15rem;
+    }
+
+    header.teamhead2 h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.teamhead2 h1 {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* Call Out*/
+.callout {
+    float: right;
+  position: relative;
+  bottom: 85px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 20px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+
+
+
+/*btn green*/
+.btn-green{
+  background-color: #336b43;
+  color: #fff;
+  /*border-color: #336b43*/
+}
+
+/*btn dark blue*/
+.btn-dark-blue{
+    background-color: #29394a;
+    color: #fff;
+    border-color: #29394a;
+}
+.btn-dark-blue:hover{
+    background-color: #93bfec;
+}
+
+/*video*/
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 75%;
+  max-height: 100%;
+}
+
+/*testimonial img zoom*/
+.piczoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.piczoom:hover {
+  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
