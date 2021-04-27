@@ -263,3 +263,24 @@ header.teamhead2 h1 {
 .piczoom:hover {
   transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+/*btn white*/
+
+/*.btn-white {
+    border-radius: 2.25rem;
+}*/
+
+.btn-white {
+    color: #155dab;
+     background-color: #fff;
+    border-color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #155dab;
+    border-color: #155dab;
+
+}
