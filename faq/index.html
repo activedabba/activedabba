@@ -10,16 +10,25 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <script src="/js/lib/fontawesome.js"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
     <!-- Third party plugin CSS-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+    <link href="/css/lib/magnific-popup-min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <!--App CSS  -->
     <link href="css/app.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153102330-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153102330-1');
+</script>
 </head>
 
 <body id="page-top">
@@ -101,7 +110,7 @@
                                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                             </ol>
                             <div class="carousel-inner">
-                                  <div class="carousel-item active">
+                                <div class="carousel-item active">
                                     <img src="assets\img\carousel\sophia.jpg" class="img-fluid" alt="...">
                                     <div class="carousel-caption d-md-block">
                                         <!-- <h5 class="text-black font-weight-bold">Active Dabba</h5>
@@ -110,14 +119,13 @@
                                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.youtube.com/watch?v=ysBM4INUO6Y" target="_blank"><i class="fas fa-play fa-2x"></i></a>
                                     </div>
                                 </div>
-<div class="carousel-item">
+                                <div class="carousel-item">
                                     <h5 class="text-white font-weight-bold mb-2">Major Explorer Kit</h5>
                                     <img src="assets\img\carousel\Major Explorer Kit (Air and Craft Combo 6).jpg" class="img-fluid" alt="...">
                                     <div class="carousel-caption d-md-block">
                                         <a class="btn btn-primary zoom" href="major-explorer-kit.html" target="_blank">View</a>
                                     </div>
                                 </div>
-
                                 <div class="carousel-item">
                                     <h5 class="text-white font-weight-bold mb-2">Junior Adventurer Kit</h5>
                                     <img src="assets\img\carousel\Junior Adventurer Kit (Glider Combo 1).jpg" class="img-fluid" alt="...">
@@ -132,7 +140,6 @@
                                         <a class="btn btn-primary zoom" href="junior-artist-kit.html" target="_blank">View</a>
                                     </div>
                                 </div>
-
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -303,7 +310,7 @@
                                     <span class="ml-2">
                                         <a class="portfolio-box" href="assets/img/testimonials/hari2.jpg" target="_blank">
                                             <img src="assets/img/testimonials/hari2.jpg" alt="Avatar" style="width:90px"></a>
-                                        </span></div>
+                                    </span></div>
                                 <div class="text-center"> "Kids were able make the product themselves using the given instructions. It was simple and fun." </div>
                                 <br>
                                 <div class="text-center"><b>- Hari</b></div>
@@ -625,17 +632,18 @@
     </footer>
     <!-- Footer end -->
     <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="/js/lib/jquery-min.js"></script>
+    <script src="/js/lib/bootstrap-min.js"></script>
     <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="/js/lib/jquery-easing-min.js"></script>
+    <script src="/js/lib/jquery-magnific-popup-min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/2.1.0/json2html.min.js"></script> -->
     <!-- <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script> -->
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
     <!-- video pause/play button -->
-    <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="/js/video.js"></script>
 </body>
 
 </html>
