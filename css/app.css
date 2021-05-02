@@ -317,10 +317,10 @@ header.teamhead2 h1 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #44d9e6;
+    background: #155dab;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #44d9e6;
+    background: #155dab;
 }
