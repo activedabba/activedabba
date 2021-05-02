@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
     <!-- Third party plugin CSS-->
     <link href="/css/lib/magnific-popup-min.css" rel="stylesheet" />
+    <link href="/css/lib/aos.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/css/styles.css" rel="stylesheet" />
     <!--App CSS  -->
@@ -69,6 +70,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
+            <!-- Scroll Indicator Progress Bar -->
+            <div class="scroll-progress-bar" id="scrollIndicator">
+            </div>
         </div>
     </nav>
     <!-- Navigation end -->
@@ -97,22 +101,31 @@
     <section class="page-section bg-primary" id="about">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 col-sm-6 text-center">
                     <h3 class="text-white text-center mt-0">About Us</h3>
                     <hr class="divider light my-4" />
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
+            <div class="row justify-content-center" data-aos="fade-up">
+                <div class="col-lg-6 col-sm-6 text-center">
                     <img class="img-fluid" src="/assets/img/about.png">
                 </div>
-                <div class="col-lg-6 text-center"><br>
+                <div class="col-lg-6 col-sm-6 text-center"><br>
                     <p class="text-white text-left mb-4">Welcome to ACTIVE DABBA. An exclusive online store for creative activity boxes involving themes like Crafts, Aeromodelling and so on. These kits are fabricated by a team of Subject and Field Experts and tested by various SME’s all
                         around the world. Our kits are open ended and provide scope for imagination. We ensure that our kits would replace the user’s screen time into quality creative time.
                     </p>
                     <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
                     <p class="text-white text-left mb-4">
                         They are based on S.T.E.M Learning principles and aim to improve the motor skills of the user apart from tapping their creative energy. These kits are tested and approved by age appropriate users across countries.
+                    </p>
+                    <p class="text-center">
+                        <video id="myVideo">
+                            <source src="/assets/video/Intro_ActiveDabba.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </p>
+                    <p class="text-center"><button id="playBtn" class="btn btn-dark-blue mr-2" onclick="playFunction()"><i class="fas fa-play"></i></button>
+                        <button id="pauseBtn" class="btn btn-dark-blue" onclick="pauseFunction()"><i class="fas fa-pause"></i></button>
                     </p>
                 </div>
             </div>
@@ -124,7 +137,7 @@
         <div class="container">
             <h2 class="text-center mt-0">WHY ? </h2>
             <hr class="divider my-4" />
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
                     <div class="mt-5 shadow p-3 mb-5 bg-body rounded zoom">
                         <i class="fas fa-4x fa-award text-primary mb-4"></i>
@@ -154,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-lg-3 col-md-6 col-sm-6 text-center">
                     <div class="mt-5 shadow p-3 mb-5 bg-body rounded zoom">
                         <i class="fas fa-4x fa-cannabis text-primary mb-4"></i>
@@ -484,6 +497,7 @@
     <!-- Third party plugin JS-->
     <script src="/js/lib/jquery-easing-min.js"></script>
     <script src="/js/lib/jquery-magnific-popup-min.js"></script>
+    <script src="/js/lib/aos.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/2.1.0/json2html.min.js"></script> -->
     <!-- <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script> -->
     <!-- Core theme JS-->
@@ -492,6 +506,7 @@
     <script src="/js/lib/jquery3-min.js"></script>
     <script type="text/javascript" src="product.json"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/video.js"></script>
     <!-- <script type="text/javascript" src="javascrip.js"></script> -->
     <!-- <script type="text/javascript" src="data/product.json"></script> -->
     <!--  -->
