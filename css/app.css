@@ -287,12 +287,13 @@ header.teamhead2 h1 {
 
 /* scroll indicator */
 .scroll-progress-bar {
-    margin-bottom: 103px;
+    /*margin-bottom: 103px;*/
     width: 0%;
     height: 4px;
     background-color: #155dab;
     position: fixed;
     left: 0px;
+    top:0%;
 }
 
 .scroll-progress-bar-gac{
