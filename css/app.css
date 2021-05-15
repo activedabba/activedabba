@@ -252,6 +252,8 @@ header.teamhead2 h1 {
   bottom: 0;
   max-width: 75%;
   max-height: 100%;
+  border-radius: 8px;
+
 }
 
 /*testimonial img zoom*/
