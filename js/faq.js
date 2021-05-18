@@ -4,7 +4,7 @@ $(document).ready(function() {
     $.getJSON("/faq/faq.json",
         function(data) {
             var faq = '';
-            faq += '<div class="col-lg-9 col-sm-6">'
+            faq += '<div class="col-lg-12 col-md-12 col-sm-12">'
             faq += '<div class="accordion" id="accordionExample">'
 
             $.each(data, function(key, value) {
