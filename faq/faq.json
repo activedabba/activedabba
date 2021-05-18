@@ -1,0 +1,41 @@
+[
+{
+    "id": "1",
+    "question": "#1 How do I use Active Dabba",
+    "answer": "Every Active Dabba comes with a step by step instruction sheet with relevant pictures that would help the user to create the final product without / with minimal help from adults",
+    "div_id": "collapseOne",
+    "data_target": "#collapseOne",
+    "aria_labelledby": "headingOne"
+},
+{
+    "id": "2",
+    "question": "#2 What age groups are applicable to use Active Dabba",
+    "answer": "Our kits are available for kids aged 2 years and above though they may initially require a little guidance in reading and following the instructions. There is no upper age limit",
+    "div_id": "collapseTwo",
+    "data_target": "#collapseTwo",
+    "aria_labelledby": "headingTwo"
+},
+{
+    "id": "3",
+    "question": "#3 What are the shipping charges",
+    "answer": "The shipping charges depends upon the pincode of the delivery. In case of bulk booking, the price will be discounted accordingly",
+    "div_id": "collapseThree",
+    "data_target": "#collapseThree",
+    "aria_labelledby": "headingThree"
+},
+{
+    "id": "4",
+    "question": "#4 Can I cancel the order after the payment",
+    "answer": "No! As each and every dabba is handcrafted you cannot cancel the order. Products once shipped, cannot be cancelled",
+    "div_id": "collapseFour",
+    "data_target": "#collapseFour",
+    "aria_labelledby": "headingFour"
+},
+{
+    "id": "5",
+    "question": "#5 Can I return / replace the product once I open it",
+    "answer": "Yes, you can return / replace the product only if it is not the Dabba you had ordered. If the contents in the dabba are misplaced or damaged, we will ship the missing materials and the entire charge will be borne by Active Dabba",
+    "div_id": "collapseFive",
+    "data_target": "#collapseFive",
+    "aria_labelledby": "headingFive"
+}]
