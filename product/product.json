@@ -70,5 +70,11 @@
     "price": "Price: ₹ 700",
     "link": "/assets/img/products/Junior Adventurer Kit (Glider Combo 1).jpg",
     "btnlink": "junior-adventurer-kit"
+},
+{
+    "title": "Major Artist Kit",
+    "price": "Price: ₹ 500",
+    "link": "/assets/img/products/Major_Artist_Kit.png",
+    "btnlink": "major-artist-kit"
 }
 ]
